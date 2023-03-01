@@ -31,8 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: asdfjklasdfjkl
-        # run: cd homepage
-        run: echo "ignore, i have the code commented cuz it kept breaking"
+        run: echo $PATH
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
