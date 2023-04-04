@@ -6,6 +6,8 @@ function Desktop() {
 
   //WEATHER I WANT TO DIE
 
+  console.log("mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm")
+
   let weatherIcons = { 1000: ['moon.svg', 'sun.svg'], 1003: 'cloud-sun.svg', 1006: 'cloud.svg', 1009: 'cloud.svg', 1030: 'cloud-fog.svg', 1135: 'cloud-fog.svg', 1147: 'cloud-fog.svg', 1063: 'cloud-drizzle.svg', 1150: 'cloud-drizzle.svg', 1153: 'cloud-drizzle.svg', 1168: 'cloud-drizzle.svg', 1198: 'cloud-drizzle.svg', 1240: 'cloud-drizzle.svg', 1249: 'cloud-snow.svg', 1066: 'cloud-snow.svg', 1114: 'cloud-snow.svg', 1117: 'cloud-snow.svg', 1207: 'cloud-snow.svg', 1210: 'cloud-snow.svg', 1213: 'cloud-snow.svg', 1216: 'cloud-snow.svg', 1219: 'cloud-snow.svg', 1222: 'cloud-snow.svg', 1252: 'cloud-snow.svg', 1255: 'cloud-snow.svg', 1258: 'cloud-snow.svg', 1072: 'cloud-hail.svg', 1069: 'cloud-hail.svg', 1171: 'cloud-hail.svg', 1201: 'cloud-hail.svg', 1204: 'cloud-hail.svg', 1237: 'cloud-hail.svg', 1261: 'cloud-hail.svg', 1264: 'cloud-hail.svg', 1087: 'cloud-lightning.svg', 1273: 'cloud-lightning.svg', 1276: 'cloud-lightning.svg', 1279: 'cloud-lightning.svg', 1282: 'cloud-lightning.svg', 1180: 'cloud-rain.svg', 1183: 'cloud-rain.svg', 1186: 'cloud-rain.svg', 1189: 'cloud-rain.svg', 1243: 'cloud-rain.svg', 1192: 'cloud-rain-wind.svg', 1195: 'cloud-rain-wind.svg', 1246: 'cloud-rain-wind.svg' }
 
   const [data, setData] = useState(null);
