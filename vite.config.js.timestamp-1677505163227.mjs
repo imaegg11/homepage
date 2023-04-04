@@ -2,6 +2,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 var vite_config_default = defineConfig({
+  base: "/wasd/",
   plugins: [react()],
   server: {
     host: "0.0.0.0"
