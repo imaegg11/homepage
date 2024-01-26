@@ -14,7 +14,7 @@ function Desktop() {
 
   useEffect(() => {
     const getWeather = async () => {
-      const res = await fetch('https://api.weatherapi.com/v1/current.json?key=2251d57253504ce190315553231801&q=M2J3J8&aqi=no')
+      const res = await fetch('https://api.weatherapi.com/v1/current.json?key=2251d57253504ce190315553231801&q=M2J5A7&aqi=no')
       let resJson = await res.json()
       setData(resJson)
     }
